@@ -1,0 +1,40 @@
+---
+title: "Biolearn-Bioinformatics in R"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+The point of this document is to document the set up for starting the Biolearn project. To get started I did the following
+
+1.  Opened a new github repo in my github account.
+
+2.  Opened this project as a New Project within Posit using the open from a github rep option.
+
+3.  Copy and pasted the github repo url to initiate the project
+
+4.  Generated a personal access token following these directions
+
+    <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>
+
+5.  Stored the PAT in a notepad document on my computer and in the PAT file in this project. This is needed to connect to the repo when oushing and pulling.
